@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(../images/hinh-nen-vu-tru-huyen-ao-56.jpg);
+}
+form{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#F00;
+	margin-top:10%;
+	margin-left:40%;
+	height:400px;
+	border:2px solid;
+	width:380px
+}
+.textbox{
+	float:right;
+	clear:both;
+}
+.ten{
+	margin:35px 20px;
+}
+#button{
+	margin-top:30px;
+	text-align:center;
+}

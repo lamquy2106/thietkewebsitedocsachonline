@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(../images/space014.jpg);
+}
+section{
+	height:568px;
+}
+section>form{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FFF;
+	border:2px solid;
+	width:300px;
+	margin-left:30%;
+	text-align:center;
+	margin-top:50px;
+	height:210px;
+}
+section form input{
+	width:200px;
+	margin:10px;
+}

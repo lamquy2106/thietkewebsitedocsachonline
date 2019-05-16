@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+header
+{
+	text-align:center;
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+header li
+{
+    position: relative;
+    list-style: none;
+}
+ 
+header li a
+{
+    color: #fff;
+    display: block;
+}
+ 
+header > ul
+{
+    height: 60px;
+	background-image:url(../images/nen%20danh%20muc.png);              
+}
+ 
+header > ul > li
+{
+	width: 25%;
+    height: 100%;
+    float: left;
+    list-style:none;
+}
+ 
+header > ul > li > a
+{
+	text-decoration:none;
+	height: 100%;
+    font-size:24px;
+    line-height:60px;
+    text-align: center;
+}
+header > ul > li ul li> a:hover
+{
+	background-color:#FFF;
+	color:#00F;
+}
+header>ul>li>a:hover
+{
+	background-color:#FFF;
+	color:#00F;
+}
+
+header li ul
+{
+    background-image:url(../images/nen%20danh%20muc.png);
+    display: none;
+    position: absolute;
+    top: 100%;
+    padding:0;
+    margin:0;
+}
+ 
+header li:hover ul
+{
+    display: block;
+    left: 0;
+    right: 0;
+}
+                         
+header li ul a
+{
+	text-decoration:none;
+    font-size:20px;
+    border-top: 1px solid #e15a1f;
+    padding:15px;
+}
+header>ul>div#tim{
+	margin-right:110px;
+	margin-top:20px;
+	float:right;
+	width:200px;
+}
+
+div#body{
+	margin-left:9.5%;
+	min-width:1200px;
+}
+
+nav{
+	text-align:center;
+	min-width:1200px;
+}
+nav>img{
+	padding-top:5px;
+	padding-bottom:5px;
+	width:1200px;
+	height:300px;
+}
+
+
+article{
+	display:table-row;
+	width:1200px;
+	
+}
+aside#left,aside#right,section{
+	display:table-cell;
+	vertical-align:top;
+}
+aside#left{
+	width:240px;
+	padding-top:10px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+}
+aside#left>div{
+	border:1px #F90 solid;
+}
+aside#left>div>p{
+	background-image:url(../images/nen%20danh%20muc.png);
+	color:white;
+	font-family:Arial, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	height:30px;
+	padding-top:10px;
+	margin-top:0px;
+}
+aside#left>div>ul
+{
+	list-style:none;
+}
+
+aside#left>div>ul>li>a:hover
+{
+	color:#00F;
+}
+
+aside#left li{
+	margin:10px;
+}
+aside#left a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#F90;
+	text-decoration:none;
+	margin-left:5px;
+}
+section{
+	width:720px;
+}
+
+
+aside#right{
+	width:240px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+
+aside#right>div{
+	margin-top:10px;
+	border:1px #F90 solid;
+	width:240px;
+}
+aside#right>div>p{
+	background-image:url(../images/nen%20danh%20muc.png);
+	color:white;
+	font-family:Arial, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	height:30px;
+	padding-top:10px;
+	margin-top:0px;
+		
+}
+aside#right>div>marquee{
+	height:400px;
+	width:240px;
+	text-align:center;
+}
+aside#right>div>marquee a{
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#F90;
+}
+aside#right>div>marquee div{
+	margin-top:5px;
+	margin-bottom:10px;
+}
+.viencham{
+	padding-top:10px;
+	padding-bottom:10px;
+	border-top:2px dotted #F90;
+}
+.viencham#lastvien{
+	border-bottom:none;
+}
+.img{
+	width:200px;
+	height:250px;
+}
+.maugia{
+	color:#3F3;
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:bold;
+}
+aside#right{
+	float:right;
+}
+footer div{
+	background-image:url(../images/nen%20danh%20muc.png);
+	width:100%;
+}
+footer>div{
+	color:white;
+	font-family:Arial, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	height:80px;
+	padding-top:10px;
+	margin-top:0px;
+	text-decoration:none;
+}

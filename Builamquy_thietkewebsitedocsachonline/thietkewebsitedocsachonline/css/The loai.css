@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+section>p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:30px;
+	font-weight:bold;
+}
+section>div{
+	float:left;
+	margin-top:10px;
+	border:1px #F90 solid;
+	width:238px;
+	height:350px;
+	text-align:center;
+}

@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+.hinh{
+	border:#000 solid;
+	height:400px;
+	width:300px;
+	margin-left:0px;
+	float:left;
+	
+}
+section>div>div>img{
+	height:400px;
+	width:300px;
+}
+.tieude{
+	margin-top:80px;
+	width:415px;
+	height:400px;
+	float:left;	
+}
+.tensach{
+	clear:both;
+	color:#000;
+	font-family:Arial, Arial, Helvetica, sans-serif;
+	font-size:30px;
+	font-weight:bold;
+	padding-top:10px;
+	margin-top:0px;
+}
+.tacgia{
+	clear:both;
+	color:#000;
+	font-family:Arial, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding-top:10px;
+	margin-top:0px;
+}
+.nxb{
+	clear:both;
+	color:#000;
+	font-family:Arial, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding-top:10px;
+	margin-top:0px;
+}
+.mota{
+	color:#000;
+	font-family:Arial, Arial, Helvetica, sans-serif;
+	font-size:25px;
+	font-weight:bold;
+	padding-top:10px;
+	margin-top:0px;
+	float:none;
+}
+.noidung{
+	color:#000;
+	font-family:Arial, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	float:none;
+}
